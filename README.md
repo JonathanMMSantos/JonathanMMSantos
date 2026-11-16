@@ -1,19 +1,11 @@
 <h1 align="center">Olá, eu sou o Jonathan Santos 👋</h1>
 
 <p align="center">
-  Desenvolvedor <b>full-stack</b> especializado em <b>e-commerce</b> e <b>IA aplicada</b>.<br>
-  Construo lojas, integrações e agentes de IA que vendem, atendem e se auditam sozinhos.
+  Desenvolvedor <b>full-stack</b> com <b>IA aplicada</b> no dia a dia.<br>
+  E-commerce, integrações e automação: do layout à API, com agentes e skills que aceleram a entrega.
 </p>
 
 ---
-
-## 🤖 IA aplicada ao e-commerce
-
-- **Agentes de venda e atendimento:** bot de vendas no WhatsApp com *tool-calling* (OpenAI), ligado ao catálogo e ao carrinho da loja, com atendimento humano, dashboard e janela de 24h da Meta Cloud API.
-- **Auditoria automática com LLM:** bot semanal que audita SEO, performance e acessibilidade (Lighthouse + runtime), aplica patches aditivos validados por *guardrails* e abre pull requests e issues sozinho, via GitHub Actions.
-- **Design-to-code:** layouts feitos no pen.dev e implantados com validação medida contra o design (tipografia, espaçamento e caixas, em desktop e mobile).
-- **Ferramentas para agentes:** skills e servidores MCP para plataformas de e-commerce, automação de PRs e de documentação.
-- **Desenvolvimento assistido por IA:** fluxo diário com Claude Code, de especificação (OpenSpec e ADRs) a testes e deploy.
 
 ## 🛠️ No que eu trabalho
 
@@ -22,6 +14,15 @@
 - **Back-end:** Node.js e Bun, NestJS, PostgreSQL com Prisma, filas (pg-boss), APIs REST e webhooks.
 - **CMS e dados:** Payload CMS, Strapi, Sanity, Supabase.
 - **Qualidade e automação:** GitHub Actions, testes end-to-end com Playwright, RBAC e arquitetura documentada.
+
+## 🤖 IA aplicada no meu fluxo
+
+- **Agentes de venda e atendimento:** bot de vendas no WhatsApp com *tool-calling* (OpenAI), ligado ao catálogo e ao carrinho da loja, com atendimento humano, dashboard e janela de 24h da Meta Cloud API.
+- **Auditoria automática com LLM:** bot semanal que audita SEO, performance e acessibilidade (Lighthouse + runtime), aplica patches aditivos validados por *guardrails* e abre pull requests e issues sozinho, via GitHub Actions.
+- **Design-to-code:** layouts feitos no pen.dev e implantados com validação medida contra o design (tipografia, espaçamento e caixas, em desktop e mobile).
+- **Skills de IA para a plataforma Olist/VNDA:** conhecimento da plataforma (sections, banners, posições, guards e documentação de cadastro) empacotado em skills e MCP, usado pelo time para criar e corrigir temas com mais velocidade e menos erro.
+- **Automação de PRs e documentação:** agentes que revisam, documentam e abrem pull requests.
+- **Desenvolvimento assistido por IA:** fluxo diário com Claude Code, de especificação (OpenSpec e ADRs) a testes e deploy.
 
 ## 🧰 Stack
 
@@ -48,4 +49,4 @@ Aberto a oportunidades **100% remotas** como desenvolvedor full-stack.
 
 ---
 
-<sub>🇬🇧 Full-stack developer specialized in e-commerce and applied AI: LLM agents with tool-calling, automated audits, and design-to-code workflows. TypeScript, Next.js, NestJS, Bun, Prisma, PostgreSQL. Open to remote opportunities.</sub>
+<sub>🇬🇧 Full-stack developer with applied AI in daily work: e-commerce platforms, LLM agents with tool-calling, platform-specific AI skills/MCP, automated audits and design-to-code workflows. TypeScript, Next.js, NestJS, Bun, Prisma, PostgreSQL. Open to remote opportunities.</sub>
