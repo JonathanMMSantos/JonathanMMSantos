@@ -17,11 +17,11 @@
 
 ## 🤖 IA aplicada no meu fluxo
 
-- **Agentes de venda e atendimento:** bot de vendas no WhatsApp com *tool-calling* (OpenAI), ligado ao catálogo e ao carrinho da loja, com atendimento humano, dashboard e janela de 24h da Meta Cloud API.
-- **Auditoria automática com LLM:** bot semanal que audita SEO, performance e acessibilidade (Lighthouse + runtime), aplica patches aditivos validados por *guardrails* e abre pull requests e issues sozinho, via GitHub Actions.
-- **Design-to-code:** layouts feitos no pen.dev e implantados com validação medida contra o design (tipografia, espaçamento e caixas, em desktop e mobile).
-- **Skills de IA para a plataforma Olist/VNDA:** conhecimento da plataforma (sections, banners, posições, guards e documentação de cadastro) empacotado em skills e MCP, usado pelo time para criar e corrigir temas com mais velocidade e menos erro.
-- **Automação de PRs e documentação:** agentes que revisam, documentam e abrem pull requests.
+- **Skill de IA para a plataforma Olist/VNDA:** conhecimento da plataforma (sections, banners, posições, guards e documentação de cadastro) empacotado em skills e prompts para LLMs. Aplicada em lojas Olist/VNDA, reduziu em até 55% o trabalho manual e permite que quem tem menos experiência em Liquid entregue rápido e com consistência.
+- **Agente de vendas no WhatsApp:** back-end NestJS, PostgreSQL, Prisma e filas, painel em Next.js e agente OpenAI com *tool-calling* (8 ferramentas) ligado ao catálogo e ao carrinho da loja, com transferência para atendimento humano, proteção contra *prompt injection*, janela de 24h da Meta Cloud API, recuperação de carrinho e recomendação de produtos. Decisões em ADRs e mudanças especificadas com OpenSpec.
+- **Auditoria automática com LLM:** bot semanal de SEO, performance e acessibilidade (Lighthouse + runtime) que aplica correções seguras validadas por *guardrails* e abre pull requests e issues sozinho, via GitHub Actions.
+- **Revisão automática de pull requests:** bot que roda depois do CodeRabbit, detecta a plataforma (VNDA, Nuvemshop, Shopify, VTEX), aplica regras estáticas e revisão contextual com LLM e comenta direto no PR.
+- **Design-to-code:** layouts feitos no pen.dev e implantados com validação medida contra o design (largura, altura, tipografia e espaçamento) em desktop e mobile com Playwright, mais documentação de cadastro para quem opera a loja.
 - **Desenvolvimento assistido por IA:** fluxo diário com Claude Code, de especificação (OpenSpec e ADRs) a testes e deploy.
 
 ## 🧰 Stack
